@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@storybook/html": "^6.1.21",
     "solid-js": "^0.24.12"
   },
   "devDependencies": {
@@ -8,6 +7,7 @@
     "@storybook/addon-actions": "^6.1.21",
     "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
+    "@storybook/html": "^6.1.21",
     "babel-loader": "^8.2.2",
     "babel-preset-solid": "^0.24.12",
     "core-js": "^3.9.1"
