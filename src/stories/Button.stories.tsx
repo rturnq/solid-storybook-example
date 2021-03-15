@@ -1,4 +1,4 @@
-import Button from '../Button';
+import Button, { Props as ButtonProps} from '../Button';
 
 export default {
   title: 'Example/Button',
@@ -8,7 +8,7 @@ export default {
   },
 };
 
-export const Primary = (args) => <Button {...args} />;
+export const Primary = (args: ButtonProps) => <Button {...args} />;
 
 Primary.args = {
   label: 'Button',
